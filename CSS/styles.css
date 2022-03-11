@@ -120,6 +120,19 @@ img {
 .nav-link:focus {
   color: var(--akcent-text);
 }
+.header-contact {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: auto;
+}
+
+.header-contact .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .nav-contact {
   font-weight: 500;
   font-size: 14px;
@@ -134,16 +147,10 @@ img {
 .nav-list .nav-link.current {
   color: var(--akcent-text);
 }
-.header-contact {
-  display: flex;
-  margin-left: auto;
-}
-.header-contact .link {
-  display: block;
-}
-.header-contact .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+
+.nav-contact .icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 /* Hero */
 .hero {
