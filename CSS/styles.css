@@ -194,13 +194,13 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: inline-block;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
   background-color: var(--akcent-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: transparent;
 }
 
 /* Особенности */
